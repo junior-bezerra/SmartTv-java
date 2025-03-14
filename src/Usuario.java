@@ -4,7 +4,7 @@ public class Usuario {
         SmartTv smartTv = new SmartTv();
 
         smartTv.diminiuirVolume();
-        smartTv.diminiuirVolume();git push -u origin main
+        smartTv.diminiuirVolume();
         smartTv.diminiuirVolume();
         smartTv.aumentarVolume();
 
