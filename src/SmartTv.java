@@ -8,7 +8,7 @@ public class SmartTv {
     int volumeAntesDoMudo = volume;
     
     public void mudarCanal(int novoCanal){
-        if(canal > 0){
+        if(novoCanal > 0){
         canal = novoCanal;
         } else {
             System.out.println("Canal inválido. O canal deve ser maior que 0.");
@@ -33,7 +33,7 @@ public class SmartTv {
             if(mudo) {
                 mudo = false;
                 volume = volumeAntesDoMudo;
-                System.out.println("mundo destivado");
+                System.out.println("Mudo destivado");
             }
         } else {
             System.out.println("Volume já está no máximo");
